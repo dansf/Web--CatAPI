@@ -1,0 +1,39 @@
+@use "common" as *;
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+
+  .section {
+    max-width: 500px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 0.25rem;
+
+    &__container {
+      // border: 1px solid red;
+      max-width: 200px;
+      max-height: 300px;
+      min-height: 300px;
+    }
+
+    .btn-change {
+      outline: none;
+      border: none;
+      padding: 0.5rem 1rem;
+      color: #fff;
+      background-color: #000;
+      cursor: pointer;
+      transition: all ease-in 0.3s;
+
+      &:hover {
+        background-color: gray;
+        transition: all ease-in 0.3s;
+      }
+    }
+  }
+}

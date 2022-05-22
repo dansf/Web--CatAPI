@@ -1,0 +1,12 @@
+{
+  "short_name": "dansfigcat",
+  "name": "CatAPI - Dansfig",
+  "description": "Dansifg project bout fetch api in js",
+  "icons":[
+    {
+      "src": "/assets/cat.gif",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    }
+  ]
+}
